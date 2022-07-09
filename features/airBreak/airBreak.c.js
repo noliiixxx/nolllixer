@@ -79,8 +79,8 @@ AirBreak.process = function (localPlayer)
     {
         let position = 
         {
-            x: airBreak.position.x,
-            y: airBreak.position.y,
+            x: airBreak.position.x + 1,
+            y: airBreak.position.y + 1,
             z: 0
             console.log("ok");
         };
