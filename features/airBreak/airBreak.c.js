@@ -79,10 +79,9 @@ AirBreak.process = function (localPlayer)
     {
         let position = 
         {
-            x: airBreak.position.x + 1,
-            y: airBreak.position.y + 1,
-            z: 0
-            console.log("ok");
+           // x: airBreak.position.x + airBreak.speed * Math.sin(-direction),
+            //y: airBreak.position.y + airBreak.speed * Math.cos(-direction),
+            z: airBreak.position.z += airBreak.speed
         };
 
         if (Utils.isNotKillZone(world, position))
