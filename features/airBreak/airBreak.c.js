@@ -82,6 +82,7 @@ AirBreak.process = function (localPlayer)
             x: airBreak.position.x + 1,
             y: airBreak.position.y + 1,
             z: 0
+            console.log("ok");
         };
 
         if (Utils.isNotKillZone(world, position))
